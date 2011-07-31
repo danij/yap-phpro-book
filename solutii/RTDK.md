@@ -46,3 +46,6 @@ temă: explică ce se întâmplă şi de ce, în termeni tehnici
 
 la 8: cauta documentatia HTML 4.01 si vezi ca ai acolo un index cu tagurile
 corespunzatoare fiecarui atribut, ca <a> nu e singurul tag cu href
+
+(tutors: are tendinta de a se exprima incalcit, trebuie sa invete sa se exprime
+punctual)
