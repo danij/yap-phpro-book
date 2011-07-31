@@ -26,3 +26,18 @@ hint: defineste "request http"
 
 (tutors: ideea din spate e ca "http reeust" e mare, constituita din mai multe
 lucruri, trebuie sa vina cu "request line" ca si context semantic)
+
+
+la 7:
+
+poti pune codul html intr-un fisier .php si tot ca html se vede, deci nu
+extensia este determinanta
+
+fa urmatorul experiment: pune intr-un fisier test.php din DocumentRoot asta:
+<h1>scris mare</h1>
+fa cererea GET /test.php cu telnet
+si apoi cu un browser, dar presupun ca stii deja care va fi rezultatul
+apoi, al doilea stadiul al experimentului, modifica test.php asa:
+<?php header('Content-Type: text/plain');?><h1>scris mare</h1>
+fa cererea cu un browser, si apoi cu telnet
+temă: explică ce se întâmplă şi de ce, în termeni tehnici
