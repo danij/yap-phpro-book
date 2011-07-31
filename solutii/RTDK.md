@@ -49,3 +49,53 @@ corespunzatoare fiecarui atribut, ca <a> nu e singurul tag cu href
 
 (tutors: are tendinta de a se exprima incalcit, trebuie sa invete sa se exprime
 punctual)
+
+STATUS: passed
+
+----
+
+48ab4a98e61127a8f4c37bd7d5cbb98204036a9b
+
+e corect, dar la partea II poti spune mai multe
+
+STATUS: passed
+
+----
+
+fa5632e5447111110ee83d55c925078234058146
+
+- lipseste spatiul intre tag si atribut
+- nu va potrivi un input fara end tag
+
+STATUS: passed
+
+----
+
+cdf7832785441a3147248cdafaa62b6e0c1a5ae6
+
+- nu va potrivi un tag cu mai multe atribute
+- va potrivi: <img src="me.jpg"alt="this is me">
+- va potrivi: <script >, corect ar fi: <script>
+
+STATUS: passed
+
+----
+
+6ab6b4dc0e9a430c8a553fba65496c1f19655bee
+
+- va trebui sa potriveasca oricare dintre inputurile <input type="checkbox"
+checked>, <input checked type="checkbox">, cu oricate combinatii de atribute
+cu sau fara valoare in orice ordine; e mentionat si in cerinta asta
+
+STATUS: passed
+
+----
+
+03e2f993718e7bd70c1e321d2d4881395e37782c
+
+- va trebui sa potrivesti taguri in taguri (tutors: a auzit si stapaneneste
+  recursivitatea)
+(tutors: el intreaba: "Si cum fac recursivitatea ?", raspuns:
+  " citeste din nou cerinta cu atentie si spune-mi daca-ti vine vreo idee")
+(tot nu stie, deci indiciu:)
+- in exercitiu spune ca poti extinde metalimbajul
