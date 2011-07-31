@@ -41,3 +41,8 @@ apoi, al doilea stadiul al experimentului, modifica test.php asa:
 <?php header('Content-Type: text/plain');?><h1>scris mare</h1>
 fa cererea cu un browser, si apoi cu telnet
 temă: explică ce se întâmplă şi de ce, în termeni tehnici
+
+(tutors: s-a descurcat bine, fara ezitari majore, it looks good)
+
+la 8: cauta documentatia HTML 4.01 si vezi ca ai acolo un index cu tagurile
+corespunzatoare fiecarui atribut, ca <a> nu e singurul tag cu href
