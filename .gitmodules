@@ -73,3 +73,6 @@
 [submodule "solutii/RTDK"]
 	path = solutii/RTDK
 	url = git@gist.github.com:9272554050ec48817d15.git
+[submodule "solutii/Xao"]
+	path = solutii/Xao
+	url = git@gist.github.com:fb1fe3b7b13fb5022a8a.git
